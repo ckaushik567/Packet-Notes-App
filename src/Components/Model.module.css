@@ -168,7 +168,7 @@
 /* for mobile view */
 
 
-@media only screen and (max-width:303px) {
+@media only screen and (max-width:450px) {
     .container {
         width: 100vw;
         height: 50vh;

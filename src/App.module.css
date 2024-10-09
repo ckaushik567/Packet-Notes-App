@@ -238,7 +238,7 @@
 
 /* for Mobile view */
 
-@media only screen and (max-width:303px) {
+@media only screen and (max-width:450px) {
     .noteHeading {
         width: 100vw;
         background-color: white;
