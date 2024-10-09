@@ -204,10 +204,11 @@ li::-moz-list-bullet {
         padding: 10px 10px;
         line-height: 25px;
         display: block;
+        margin-bottom: 20px;
                   
     }
     .content {
-        height: 78%;
+        height: 74%;
         overflow-y: auto;
         margin-top: 60px;
         width: 100vw;
@@ -215,6 +216,7 @@ li::-moz-list-bullet {
         scrollbar-width: thin;
         scrollbar-color: #FFFFFF #000000A1;
         position: fixed;
+         
     
         /* display: flex;
         flex-direction: column;
