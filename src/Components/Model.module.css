@@ -1,0 +1,293 @@
+.wraper {
+    background: #2F2F2FBF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.container {
+    width: 35vw;
+    height: 40vh;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 6px;
+
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    color: #000000;
+    font-family: "Roboto";
+}
+
+.insideBox {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 20vh;
+
+}
+
+#sp1 {
+    background-color: #B38BFA;
+    width: 2vw;
+    height: 4vh;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.grpName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+#sp2 {
+    background-color: #FF79F2;
+    width: 2vw;
+    height: 4vh;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+#sp3 {
+    background-color: #43E6FC;
+    width: 2vw;
+    height: 4vh;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+#sp4 {
+    background-color: #F19576;
+    width: 2vw;
+    height: 4vh;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+#sp5 {
+    background-color: #0047FF;
+    width: 2vw;
+    height: 4vh;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+#sp6 {
+    background-color: #6691FF;
+    width: 2vw;
+    height: 4vh;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+/* .chooseColor {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    width: 50vw;
+} */
+
+.groupInput {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+#errmsg {
+    text-align: center;
+    font-size: 12px;
+    color: red;
+    border: 1px solid red;
+    padding: 5px;
+    margin-left: 130px;
+    border-radius: 6px;
+    margin-top: -20px;
+    font-weight: 300;
+}
+
+/* .createBtn{
+      margin-top: 100px;
+} */
+#errmsg {
+    position: relative;
+    background: #FFF;
+    /* -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;     */
+}
+
+#errmsg:before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    transform: rotate(-270deg);
+    top: -22px;
+
+    border: 10px solid transparent;
+    border-right-color: red;
+}
+
+.groupInput input {
+    border: 2px solid #CCCCCC;
+    outline: none;
+    border-radius: 20px;
+    width: 15vw;
+    padding: 5px;
+    background-color: #FFFFFF;
+}
+
+.createBtn button {
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #FFFFFF;
+    background: #001F8B;
+    border: 1px solid #001F8B;
+    padding: 5px 25px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+
+/* for mobile view */
+
+
+@media only screen and (max-width:303px) {
+    .container {
+        width: 100vw;
+        height: 50vh;
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 6px;
+
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+        color: #000000;
+        font-family: "Roboto";
+    }
+
+    .insideBox h3 {
+        font-size: 18px;
+    }
+
+    .insideBox {
+        width: 100vw;
+        padding: 20px;
+
+    }
+
+    .groupInput input {
+        width: 50vw;
+    }
+
+    .groupInput {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+        margin-top: 40px;
+        width: 100vw;
+    }
+
+    #sp1 {
+        background-color: #B38BFA;
+        width: 17px;
+        height: 17px;
+        border-radius: 17px;
+        cursor: pointer;
+    }
+
+    #sp2 {
+        background-color: #FF79F2;
+        width: 17px;
+        height: 17px;
+        border-radius: 17px;
+        cursor: pointer;
+    }
+
+    #sp3 {
+        background-color: #43E6FC;
+        width: 17px;
+        height: 17px;
+        border-radius: 17px;
+        cursor: pointer;
+    }
+
+    #sp4 {
+        background-color: #F19576;
+        width: 17px;
+        height: 17px;
+        border-radius: 17px;
+        cursor: pointer;
+    }
+
+    #sp5 {
+        background-color: #0047FF;
+        width: 17px;
+        height: 17px;
+        border-radius: 17px;
+        cursor: pointer;
+    }
+
+    #sp6 {
+        background-color: #B38BFA;
+        width: 18px;
+        height: 18px;
+        border-radius: 17px;
+        cursor: pointer;
+    }
+    .colors {
+        gap: 5px;
+    }
+
+}
+
+.chooseColor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 30px;
+}
+
+.colorSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.createBtn {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}

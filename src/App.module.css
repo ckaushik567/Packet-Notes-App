@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.groupSection {
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.notessection {
+    background-color: #DAE5F5;
+    height: 100vh;
+    width: 70%;
+}
+
+.noteHeading h1 {
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.noteHeading {
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 30%;
+}
+
+.notessection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.notessection img {
+    width: 35vw;
+}
+
+.notessection h1 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+
+.notessection p {
+    font-family: "Roboto";
+    font-weight: 500;
+    width: 35vw;
+    color: #292929;
+    text-align: center;
+}
+
+.notessection span {
+    position: absolute;
+    bottom: 20px;
+    font-family: "Roboto";
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.groupHead {
+    height: 80vh;
+    margin-top: auto;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #FFFFFF #D9D9D9;
+    scroll-behavior: auto;
+    scrollbar-gutter: stable;
+    
+    /* display: flex;  
+    flex-direction: column;
+    align-content: space-be;
+    justify-content: space-between; */
+}
+
+.groupHead::-webkit-scrollbar-track{
+    border-radius: 20px;
+}
+
+.btn button {
+    background-color: #16008B;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 1px 15px 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 60px;
+    margin: 4px 8px;
+    cursor: pointer;
+    border-radius: 50%;
+    position: fixed;
+    left: 300px;
+    bottom: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    background-color:#16008B;
+    border: 1px solid #16008B;
+    color: #ffff;
+    font-size: 50px;
+    position: fixed;
+    left: 300px;
+    bottom: 30px;
+    font-weight: 500; */
+}
+
+.logo h3 {
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.logo {
+    display: flex;
+    /* justify-content: center;*/
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    padding-left: 70px;
+    padding: 5px 70px;
+    width: 100%;
+}
+
+.logo p {
+    background-color: #B38BFA;
+    padding: 22px 15px;
+    color: #ffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    border-radius: 50%;
+    text-align: center;
+    width: 4.5vw;
+}
+
+.logo1 p {
+    background-color: #FF79F2;
+    padding: 20px 15px;
+    color: #ffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.logo2 p {
+    background-color: #43E6FC;
+    padding: 20px 15px;
+    color: #ffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.logo3 p {
+    background-color: #F19576;
+    padding: 20px 15px;
+    color: #ffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.logo4 p {
+    background-color: #0047FF;
+    padding: 20px 15px;
+    color: #ffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.logo5 p {
+    background-color: #6691FF;
+    padding: 20px 15px;
+    color: #ffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.logoContainer {
+    display: flex;
+    /* padding: 7px 0px; */
+    width: 100%;
+    background-color: #2F2F2F2B;
+    border-radius: 15px;
+
+}
+
+/* .logo1 p{
+    background-color:#0047FF;
+    padding: 20px 15px;
+    color: #ffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    border-radius: 50%;
+    text-align: center;
+} */
+.groupLogoText {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    /* padding-left: 70px; */
+    gap: 25px;
+}
+.notessection span img{
+    width: 10px;
+}
+
+
+/* for Mobile view */
+
+@media only screen and (max-width:303px) {
+    .noteHeading {
+        width: 100vw;
+        background-color: white;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+    }
+
+    .groupSection {
+        width: 100%;
+        position: fixed;
+        background-color: white;
+
+    }
+
+    .logo {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 20px;
+        cursor: pointer;
+        padding-left: 39px;
+        padding: 5px 40px;
+        width: 100vw;
+    }
+
+    .logo p {
+        background-color: #B38BFA;
+        padding: 20px 25px;
+        color: #ffff;
+        font-family: "Roboto";
+        font-weight: 500;
+        border-radius: 50%;
+        text-align: center;
+        width: 10vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .groupHead {
+        height: 100%;
+        margin-top: auto;
+        overflow-y: auto;
+        scrollbar-width: thin;
+        scrollbar-color: #FFFFFF #D9D9D9;
+        scroll-behavior: auto;
+        /* display: flex;  
+        flex-direction: column;
+        align-content: space-be;
+        justify-content: space-between; */
+    }
+
+    .btn button {
+        background-color: #16008B;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 5px 12px 10px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 50%;
+        position: fixed;
+        left: 200px;
+        bottom: 20px;
+    }
+    .groupHead {
+        height: 80vh;
+        margin-top: auto;
+        overflow-y: auto;
+        scrollbar-width: 200vw;
+        /* scrollbar-color: #FFFFFF #D9D9D9; */
+        scrollbar-color: #FFFFFF #D9D9D9;;
+        scroll-behavior: auto;
+        /* display: flex;  
+        flex-direction: column;
+        align-content: space-be;
+        justify-content: space-between; */
+    }
+    .notessection span {
+        display: none;
+    }
+}
