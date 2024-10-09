@@ -207,7 +207,7 @@ li::-moz-list-bullet {
                   
     }
     .content {
-        height: 78%;
+        height: 85%;
         overflow-y: auto;
         margin-top: 60px;
         width: 100vw;
